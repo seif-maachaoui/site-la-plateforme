@@ -17,12 +17,9 @@ main{
 header{
     width: 100%;
     height: 14vh;
-    border: 1px solid;
 }
 
 .header_container{
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -35,20 +32,18 @@ header{
 
 .header_container nav{
     width: 60%;
-    margin: 2% auto;
+    margin: 1% auto;
 }
 
 .header_container ul li{
     display: inline-block;
-    font-size: 11px;
     margin: 0 1%;
     padding: 1%;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header_container ul li a{
     text-decoration: none;
+    font-size: 12px;
     color: rgb(59, 50, 46);
 }
 
@@ -58,7 +53,6 @@ header{
 
 .first_section{
     width: 100%;
-    border: 1px solid;
 }
 
 .first_container{
@@ -139,14 +133,14 @@ header{
 
 .second_section{
     width: 100%;
-    border: 1px solid;
 }
 
 .second_section h2{
     margin: 3%;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 25px;
+    font-size: 40px;
+    color: #336699;
 }
 
 .second_container{
@@ -155,8 +149,165 @@ header{
 }
 .second_container article{
     margin: 3%;
-    width: 300px;
-    height: 500px;
-    border: 1px solid;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.274);
+    width: 350px;
+    height: 650px;
+    box-shadow: 15px 20px 60px 15px rgba(71,74,182,0.12)
 }
+
+.second_container article h4, p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #336699;
+    padding: 3% 7%;
+    font-size: 17px;
+}
+
+.second_container article span{
+    font-weight: 700;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    margin: 1%;
+    background-color: #fb8b00;
+    border-radius: 25px;
+    box-shadow: 5px 5px 17px rgba(0, 0, 0, 0.406);
+}
+
+article button a{
+    padding: 1% 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.spec1, .spec2, .spec3{
+    width: 100px;
+    height: 100px;
+    margin: 10% auto;
+}
+
+.spec1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.spec2 img{
+    width: 100%;
+    height: 100%;  
+}
+
+.spec3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.third_section h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 3%;
+    color: #336699 ;
+}
+
+.third_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third_container article{
+    margin: 3%;
+    width: 85%;
+    height: 25vh;
+    border: 1px solid;
+    padding: 0 5%;
+}
+
+.little_container1{
+    display: flex;
+    justify-content: center;
+}
+
+.little_container1 img{
+    width: 100px;
+    height: 100px;
+    margin: 2%;
+}
+
+.little_container2{
+    display: flex;
+    justify-content: center;
+}
+
+.little_container2 img{
+    width: 100px;
+    height: 100px;
+    margin: 2%;
+}
+
+.little_container3{
+    display: flex;
+    justify-content: center;
+}
+
+.little_container3 img{
+    width: 100px;
+    height: 100px;
+    margin: 2%;
+}
+
+.section4{
+    background-color: #ffa000;
+}
+
+.section4 h2{
+    text-align: center;
+    font-size: 40px;
+    color: white ;
+}
+
+.section4 p{
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.frame_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.frame_container iframe{
+    width: 640px;
+    height: 390px;
+    margin: 0 5%;
+    padding: 5%;
+}
+
+footer{
+    width: 100%;
+    background-color: #313131;
+}
+
+.footer_container{
+    display: grid;
+    grid-template-columns: 2fr, 1fr, 1fr, 1fr;
+    grid-template-rows: 100px;
+    
+}
+
+.footer_container article{
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+
+}
+
+
