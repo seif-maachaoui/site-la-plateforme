@@ -149,15 +149,15 @@ header{
 }
 .second_container article{
     margin: 3%;
-    width: 350px;
-    height: 650px;
+    width: 360px;
+    height: 690px;
     box-shadow: 15px 20px 60px 15px rgba(71,74,182,0.12)
 }
 
 .second_container article h4, p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #336699;
-    padding: 3% 7%;
+    padding: 3% 5%;
     font-size: 17px;
 }
 
@@ -171,17 +171,17 @@ article{
     align-items: center;
 }
 
-button{
+.second_container button{
     width: 250px;
-    height: 40px;
-    margin: 1%;
+    height: 50px;
+    margin: 3%;
     background-color: #fb8b00;
     border-radius: 25px;
     box-shadow: 5px 5px 17px rgba(0, 0, 0, 0.406);
 }
 
-article button a{
-    padding: 1% 2%;
+.second_container article button a{
+    padding: 3% 2%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
@@ -193,19 +193,13 @@ article button a{
     margin: 10% auto;
 }
 
-.spec1 img{
+.spec1 img, .spec2 img, .spec3 img{
     width: 100%;
     height: 100%;
 }
 
-.spec2 img{
+.third_section{
     width: 100%;
-    height: 100%;  
-}
-
-.spec3 img{
-    width: 100%;
-    height: 100%;
 }
 
 .third_section h2{
@@ -222,51 +216,40 @@ article button a{
 }
 
 .third_container article{
-    margin: 3%;
-    width: 85%;
-    height: 25vh;
-    border: 1px solid;
-    padding: 0 5%;
+    width: 80%;
+    margin: 5%;
+    padding: 0 3%;
 }
 
-.little_container1{
+.little_container1, .little_container2, .little_container3{
     display: flex;
     justify-content: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.46);
 }
 
-.little_container1 img{
+.little_container1 img, .little_container2 img, .little_container3 img{
     width: 100px;
     height: 100px;
     margin: 2%;
 }
 
-.little_container2{
-    display: flex;
-    justify-content: center;
-}
 
-.little_container2 img{
-    width: 100px;
-    height: 100px;
-    margin: 2%;
-}
-
-.little_container3{
-    display: flex;
-    justify-content: center;
-}
-
-.little_container3 img{
-    width: 100px;
-    height: 100px;
-    margin: 2%;
+.third_container article button{
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 17px rgba(0, 0, 0, 0.406);
+    background-color: #fb8b00;
+    margin: 5%;
 }
 
 .section4{
+    width: 100%;
     background-color: #ffa000;
 }
 
 .section4 h2{
+    padding: 2%;
     text-align: center;
     font-size: 40px;
     color: white ;
@@ -282,13 +265,13 @@ article button a{
 .frame_container{
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 
 .frame_container iframe{
-    width: 640px;
+    width: 700px;
     height: 390px;
-    margin: 0 5%;
-    padding: 5%;
+    margin: 5% 5%;
 }
 
 footer{
@@ -297,17 +280,114 @@ footer{
 }
 
 .footer_container{
-    display: grid;
-    grid-template-columns: 2fr, 1fr, 1fr, 1fr;
-    grid-template-rows: 100px;
-    
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer_container article{
-    width: 300px;
-    height: 300px;
-    border: 1px solid;
+    width: 350px;
+    height: 350px;
+    margin: 3% 3%;
+}
+
+.footer_logo{
+    width: 100%;
+    height: 35%;
 
 }
+.footer_container article ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer_container article ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 4%;
+}
+
+.footer_container article ul li a{
+    text-decoration: none;
+}
+
+.footer_container article ul li a img{
+    width: 25px;
+    height: 25px;
+    padding: 2% 2%;
+}
+
+.button1{
+    width: 200px;
+    height: 30px;
+    margin: 10%;
+    border-radius: 20px;
+}
+
+.button1 a {
+ color: black;
+ padding: 1% 2%;
+ font-size: 14px;
+}
+
+.button2{
+    width: 200px;
+    height: 30px;
+    margin: 3%;
+    border-radius: 20px;
+    background-color: #fb8b00;
+}
+
+.button2 a {
+    color: white;
+    padding: 1% 2%;
+    font-size: 14px;
+}
+
+.footer_container article .part1, .part2, .part3{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.part1 span, .part2 span, .part3 span{
+    font-weight: 700;
+    font-size: 18px ;
+}
+
+.footer_container article p{
+    color: white;
+    font-size: 14px;
+    padding: 3% 3%;
+    width: 100%;
+}
+
+
+.part3 .button3{
+    width: 200px;
+    height: 40px;
+    margin: 3%;
+    border-radius: 10px;
+    background-color: #313131;
+}
+
+.part3 img{
+    width: 150px;
+    height: 150px;
+}
+
+.credits{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.credits p, a{
+    color: white;
+    font-size: 12px;
+}
+
+
+
 
 
